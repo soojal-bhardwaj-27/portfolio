@@ -5,7 +5,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Activities from './components/Activities';
-import Projects1 from './components/Projects1';
+import Projects from './components/Projects1';
 import Footer from './components/Footer';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Skills />
         <Experience />
         <Activities />
-        <Projects1 />
+        <Projects/>
       </main>
       <Footer />
     </div>

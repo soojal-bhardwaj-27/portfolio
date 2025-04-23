@@ -97,9 +97,13 @@ const About: React.FC = () => {
                   <h4 className="font-medium">MCA</h4>
                   <p className="text-sm text-gray-600">The Madhav Institute of Technology and Science (MITS), 2007</p>
                 </div>
+              </li>
+              <li className="flex">
+                <div className="w-2 h-2 bg-blue-700 rounded-full mt-2 mr-3"></div>
                 <div>
-                  <h4 className="font-medium">Bsc (Electronics)</h4>
-                  <p className="text-sm text-gray-600">KRGC Gwalior, 2004</p>
+                  <h4 className="font-medium">BSC IN  ELECTRONICS <div>
+                    <span className="text-sm text-gray-600">KRGC Gwalior, 2004</span>
+                  </div></h4>
                 </div>
               </li>
             </ul>

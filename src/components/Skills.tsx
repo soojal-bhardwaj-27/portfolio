@@ -101,47 +101,43 @@ const Skills: React.FC = () => {
   }, []);
 
   return (
-    <section id="skills" className="py-20 bg-gray-50">
+    <section id="skills" className="py-20 bg-gradient-to-tr from-purple-50 to-indigo-50">
       <div 
         ref={skillsRef} 
-        className="container mx-auto px-6 md:px-10 opacity-0 translate-y-10 transition-all duration-1000 ease-out"
+        className="container mx-auto px-6 md:px-10"
       >
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-2">Technical Skills</h2>
-          <div className="w-20 h-1 bg-blue-700 mb-8"></div>
-          
-          <p className="text-lg text-gray-600 mb-10">
-            With over 12 years of teaching experience, I've developed expertise in various programming languages,
-            database systems, and compiler design. Here's a breakdown of my technical proficiencies:
-          </p>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            {skillCategories.map((category, idx) => (
-              <div key={idx} className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
-                <div className="flex items-center mb-4">
-                  <category.icon size={24} className="text-blue-700 mr-3" />
-                  <h3 className="text-xl font-semibold">{category.name}</h3>
-                </div>
-                
-                <div className="space-y-4">
-                  {category.skills.map((skill, skillIdx) => (
-                    <div key={skillIdx}>
-                      <div className="flex justify-between mb-1">
-                        <span className="font-medium">{skill.name}</span>
-                        <span className="text-sm text-gray-500">{skill.proficiency}%</span>
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-2">
-                        <div 
-                          className="bg-blue-700 h-2 rounded-full transition-all duration-1000 ease-out" 
-                          style={{ width: `${skill.proficiency}%` }}
-                        ></div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
+        <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-2 text-indigo-900">Skills & Expertise</h2>
+        <div className="w-20 h-1 bg-purple-600 mb-12"></div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {skillCategories.map((category, idx) => (
+            <div 
+              key={idx}
+              className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 border border-purple-100"
+            >
+              <div className="flex items-center mb-4">
+                <category.icon size={24} className="text-purple-700 mr-3" />
+                <h3 className="text-xl font-semibold text-indigo-800">{category.name}</h3>
               </div>
-            ))}
-          </div>
+              
+              <div className="space-y-4">
+                {category.skills.map((skill, skillIdx) => (
+                  <div key={skillIdx}>
+                    <div className="flex justify-between mb-1">
+                      <span className="font-medium text-gray-700">{skill.name}</span>
+                      <span className="text-sm text-gray-500">{skill.proficiency}%</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2">
+                      <div 
+                        className="bg-purple-600 h-2 rounded-full transition-all duration-1000 ease-out" 
+                        style={{ width: `${skill.proficiency}%` }}
+                      ></div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

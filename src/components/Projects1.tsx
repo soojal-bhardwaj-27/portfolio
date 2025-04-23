@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Code, ExternalLink } from 'lucide-react';
 
-const Projects1: React.FC = () => {
+const Projects: React.FC = () => {
   const projectRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -92,4 +92,4 @@ const Projects1: React.FC = () => {
   );
 };
 
-export default Projects1;
+export default Projects;
