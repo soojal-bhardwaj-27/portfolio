@@ -48,7 +48,7 @@ const About: React.FC = () => {
             <div className="md:col-span-2 flex flex-col justify-center">
               <h3 className="text-2xl font-playfair font-semibold mb-4">Professor Neeharika Sengar</h3>
               <p className="text-gray-600 mb-4">
-                I am a passionate computer science professor with over 5 years of experience in academia and research. 
+                I am a passionate computer science professor with over 12+ years of experience in academia and research. 
                 My teaching philosophy centers around bridging theoretical concepts with practical applications, 
                 enabling students to develop both a strong foundation and the skills needed for real-world challenges.
               </p>

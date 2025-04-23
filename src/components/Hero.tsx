@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
             Bridging <span className="text-blue-700">Computer Science</span> with Academic Excellence
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-2xl">
-            Professor and Computer Science specialist with 12 years of experience. Dedicated to excellence in teaching and research.
+            Professor and Computer Science specialist with 12+ years of experience. Dedicated to excellence in teaching and research.
           </p>
           <div className="flex flex-wrap gap-4">
             <a 
