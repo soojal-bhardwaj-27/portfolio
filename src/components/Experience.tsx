@@ -14,7 +14,7 @@ const Experience: React.FC = () => {
   
   const experiences: ExperienceItem[] = [
     {
-      period: "Present now",
+      period: "March 2023 - Present now",
       title: "Assistant Professor",
       organization: "Raffles University, Neemrana",
       description: "Teaching computer science courses and conducting research in various domains of computer science.",
@@ -26,9 +26,9 @@ const Experience: React.FC = () => {
       ]
     },
     {
-      period: "2007 - 2009",
-      title: "M.Tech (CSE)",
-      organization: "South Point Institute of Technology",
+      period: "oct 2022 - Mar 2023",
+      title: "Assitant Professor",
+      organization: "Global Institute of Technology, Gurgaon",
       description: "Completed Master of Technology in Computer Science Engineering with focus on advanced computing concepts.",
       achievements: [
         "Specialized in Computer Science Engineering",
@@ -38,9 +38,9 @@ const Experience: React.FC = () => {
       ]
     },
     {
-      period: "2004 - 2007",
-      title: "MCA",
-      organization: "MITS Gwalior",
+      period: "Sept 2018  -  sept 2022",
+      title: "Assitant Professor",
+      organization: "South Point Institute of Technology,Sonipat",
       description: "Completed Master of Computer Applications with comprehensive study of computer science fundamentals.",
       achievements: [
         "In-depth study of programming languages and software development",
@@ -50,9 +50,45 @@ const Experience: React.FC = () => {
       ]
     },
     {
-      period: "2001 - 2004",
-      title: "BSc (Electronics)",
-      organization: "KRG College, Gwalior",
+      period: "July 2014 - March 2015",
+      title: "Lecturer",
+      organization: "HLC Academy , Lucknow",
+      description: "Completed Bachelor of Science in Electronics, building strong foundation in hardware and electronic systems.",
+      achievements: [
+        "Studied core electronics principles and circuits",
+        "Hands-on experience with electronic equipment and labs",
+        "Participated in technical exhibitions",
+        "Completed practical projects in electronics"
+      ]
+    },
+    {
+      period: "Nov 2013 - June 2014",
+      title: "As Software Developer , Education & Research",
+      organization: "SoftPro India Computer Technology Private Limated, Lucknow",
+      description: "Completed Bachelor of Science in Electronics, building strong foundation in hardware and electronic systems.",
+      achievements: [
+        "Studied core electronics principles and circuits",
+        "Hands-on experience with electronic equipment and labs",
+        "Participated in technical exhibitions",
+        "Completed practical projects in electronics"
+      ]
+    },
+    {
+      period: "MAY 2012 - OCT 2013",
+      title: "Lecturer",
+      organization: "HLC Academy , Lucknow",
+      description: "Completed Bachelor of Science in Electronics, building strong foundation in hardware and electronic systems.",
+      achievements: [
+        "Studied core electronics principles and circuits",
+        "Hands-on experience with electronic equipment and labs",
+        "Participated in technical exhibitions",
+        "Completed practical projects in electronics"
+      ]
+    },
+    {
+      period: "Aug 2007 - Oct 2008",
+      title: "Lecturer",
+      organization: "Prestige Institue of Mangment, Gwalior",
       description: "Completed Bachelor of Science in Electronics, building strong foundation in hardware and electronic systems.",
       achievements: [
         "Studied core electronics principles and circuits",
@@ -62,6 +98,7 @@ const Experience: React.FC = () => {
       ]
     }
   ];
+  
 
   useEffect(() => {
     const observer = new IntersectionObserver(

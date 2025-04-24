@@ -5,8 +5,9 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Activities from './components/Activities';
-import Projects from './components/Projects1';
+import Projects1 from './components/Projects1';  // Fixed import name
 import Footer from './components/Footer';
+import Education from './components/Education';
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Skills />
+        <Education />
         <Experience />
+        <Skills />
         <Activities />
-        <Projects/>
+        <Projects1 />  {/* Fixed component name */}
       </main>
       <Footer />
     </div>

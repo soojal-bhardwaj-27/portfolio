@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react';
-import { Code, Database, BookOpenCheck, DivideIcon as LucideIcon, Cpu, BarChart } from 'lucide-react';
+import { Code, Database, BookOpenCheck, Cpu, BarChart, Brain, Network } from 'lucide-react';
 
 interface SkillCategory {
   name: string;
-  icon: LucideIcon;
+  icon: any; // Changed from LucideIcon to any to fix type error
   skills: Skill[];
 }
 
